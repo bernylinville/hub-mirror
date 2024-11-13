@@ -8,8 +8,8 @@ import (
 	"sync"
 	"text/template"
 
+	"github.com/bernylinville/hub-mirror/pkg"
 	"github.com/spf13/pflag"
-	"github.com/togettoyou/hub-mirror/pkg"
 )
 
 var (

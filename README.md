@@ -20,18 +20,17 @@
 
    在 `Settings`-`Secrets and variables`-`Actions` 选择 `New repository secret` 新建 `DOCKER_USERNAME`（镜像仓库登录名）
    和 `DOCKER_TOKEN`（镜像仓库密码）以及 `DOCKER_REPOSITORY` 三个 Secrets
-   
+
    ![image](https://github.com/user-attachments/assets/13010521-13b2-4c55-83d6-50956e039434)
 
    其中 `DOCKER_REPOSITORY` 配置例子：
 
-     - 腾讯云: `ccr.ccs.tencentyun.com/[namespace]`
-     - 阿里云: `registry.cn-hangzhou.aliyuncs.com/[namespace]`
-   
-   例如我的是：`registry.cn-hangzhou.aliyuncs.com/hubmirrorbytogettoyou`
-   
-   ![image](https://github.com/user-attachments/assets/5af044b7-f62e-401c-976f-a8556964b995)
+   - 腾讯云: `ccr.ccs.tencentyun.com/[namespace]`
+   - 阿里云: `registry.cn-hangzhou.aliyuncs.com/[namespace]`
 
+   例如我的是：`registry.cn-hangzhou.aliyuncs.com/hubmirrorbytogettoyou`
+
+   ![image](https://github.com/user-attachments/assets/5af044b7-f62e-401c-976f-a8556964b995)
 
 2. 开启 `Settings`-`General`-`Features` 中的 `Issues` 功能
 
