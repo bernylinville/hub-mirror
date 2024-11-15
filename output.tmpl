@@ -11,3 +11,10 @@ docker pull {{ .Target }} && docker tag {{ .Target }} {{ .Source }}{{ end }}
 {{- range .Outputs }}
 ctr -n k8s.io image pull {{ .Target }} && ctr -n k8s.io image tag {{ .Target }} {{ .Source }}{{ end }}
 ```
+
+或者使用 nerdctl
+
+```shell
+{{- range .Outputs }}
+sudo nerdctl -n k8s.io image pull {{ .Target }} && sudo nerdctl -n k8s.io image tag {{ .Target }} {{ .Source }}{{ end }}
+```
